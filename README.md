@@ -11,7 +11,7 @@ To get started, we will first need to create a basic HTML file. In this file, we
 Let's break down the different sections and elements:
 
 
-1. <!DOCTYPE html>: This declaration specifies that the document is an HTML5 document type.
+1. // <!DOCTYPE html>: This declaration specifies that the document is an HTML5 document type.
 
 2. <html lang="en">: The opening tag of the HTML document, with the "lang" attribute set to "en" (English), indicating the language of the document's content.
 

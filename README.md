@@ -11,43 +11,43 @@ To get started, we will first need to create a basic HTML file. In this file, we
 Let's break down the different sections and elements:
 
 
-1. // <!DOCTYPE html>: This declaration specifies that the document is an HTML5 document type.
+1. !DOCTYPE html: This declaration specifies that the document is an HTML5 document type.
 
-2. <html lang="en">: The opening tag of the HTML document, with the "lang" attribute set to "en" (English), indicating the language of the document's content.
+2. html lang="en": The opening tag of the HTML document, with the "lang" attribute set to "en" (English), indicating the language of the document's content.
 
-3. <head>: The head section of the HTML document, which contains metadata and links to external resources.
+3. head: The head section of the HTML document, which contains metadata and links to external resources.
 
-4. <title>To-Do List</title>: Sets the title of the web page displayed in the browser's title bar or tab.
+4.title> To-Do List /title : Sets the title of the web page displayed in the browser's title bar or tab.
 
-5. <meta charset="UTF-8" />: Specifies the character encoding for the document (UTF-8, which supports a wide range of characters and symbols).
+5. meta charset="UTF-8" : Specifies the character encoding for the document (UTF-8, which supports a wide range of characters and symbols).
 
-6. <meta name="viewport" content="width=device-width" />: Configures the viewport width to match the device's width, providing better responsiveness for various screen sizes.
+6. meta name="viewport" content="width=device-width" : Configures the viewport width to match the device's width, providing better responsiveness for various screen sizes.
 
-7. <link rel="stylesheet" href="styles.css" />: Links to an external CSS file named "styles.css" to apply styling to the HTML elements.
+7. link rel="stylesheet" href="styles.css" />: Links to an external CSS file named "styles.css" to apply styling to the HTML elements.
 
-8. <body>: The body section of the HTML document, which contains the visible content of the web page.
+8. body: The body section of the HTML document, which contains the visible content of the web page.
 
-9. <section class="container">: A section element with the class "container," used to group related content.
+9. section class="container": A section element with the class "container," used to group related content.
 
-10. <div class="heading">: A division element with the class "heading" for the title and image at the top of the page.
+10. div class="heading": A division element with the class "heading" for the title and image at the top of the page.
 
-11. <img class="heading__img" src="...">: An image element with the class "heading__img" that displays an image of a laptop.
+11. img class="heading__img" src="...": An image element with the class "heading__img" that displays an image of a laptop.
 
-12. <h1 class="heading__title">To-Do List</h1>: A heading level 1 element with the class "heading__title," displaying the text "To-Do List."
+12. h1 class="heading__title">To-Do List /h1>: A heading level 1 element with the class "heading__title," displaying the text "To-Do List."
 
-13. <form class="form">: A form element with the class "form" for user input.
+13. form class="form": A form element with the class "form" for user input.
 
-14. <label class="form__label" for="todo">...: A label for the input field, indicating what the user should input.
+14. label class="form__label" for="todo">... : A label for the input field, indicating what the user should input.
 
-15. <input class="form__input" type="text" id="todo" name="to-do" size="30" required>: An input field for the user to enter their to-do item. It has a class "form__input," a unique ID "todo," a name "to-do," a size of 30 characters, and is required.
+15. input class="form__input" type="text" id="todo" name="to-do" size="30" required>: An input field for the user to enter their to-do item. It has a class "form__input," a unique ID "todo," a name "to-do," a size of 30 characters, and is required.
 
-16. <button class="button"><span>Submit</span></button>: A button element with the class "button," containing the text "Submit."
+16. button class="button"> /span>Submit /span> /button>: A button element with the class "button," containing the text "Submit."
 
-17. <div>: A division element containing an unordered list (ul) for displaying the to-do list items.
+17. div: A division element containing an unordered list (ul) for displaying the to-do list items.
 
-18. <ul class="toDoList">: An unordered list with the class "toDoList," where to-do list items will be added dynamically.
+18. ul class="toDoList">: An unordered list with the class "toDoList," where to-do list items will be added dynamically.
 
-19. <script src="script.js"></script>: Links to an external JavaScript file named "script.js" for adding interactivity and functionality to the web page.
+19. script src="script.js"> /script>: Links to an external JavaScript file named "script.js" for adding interactivity and functionality to the web page.
 
 This is the basic structure of our to-do list using HTML, and now we can move on to styling it using CSS.
 

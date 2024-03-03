@@ -106,7 +106,7 @@ The first listener is for the form's submit event. When the form is submitted (u
 The second listener is for the unordered list (ul). It listens for click events within the list. When an item within the list is clicked, it checks if the clicked element has a data-id attribute. If it does, it invokes two functions: removeItemFromDOM() and removeItemFromArray().
 
 4. Four functions are defined within the IIFE:
-addItemToDOM(itemId, toDoItem): This function creates a new list item (<li>) element, assigns it a data-id attribute with the provided itemId, sets the inner text of the list item to the provided toDoItem, and appends the list item to the unordered list (ul).
+addItemToDOM(itemId, toDoItem): This function creates a new list item (li) element, assigns it a data-id attribute with the provided itemId, sets the inner text of the list item to the provided toDoItem, and appends the list item to the unordered list (ul).
 addItemToArray(itemId, toDoItem): This function adds a new object to the toDoListArray array, where each object represents a To-Do item with its associated itemId and toDoItem text.
 
 removeItemFromDOM(id): This function finds the list item element with the specified data-id attribute (id) and removes it from the unordered list (ul).
